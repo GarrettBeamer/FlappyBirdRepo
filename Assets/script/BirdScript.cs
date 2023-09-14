@@ -8,7 +8,7 @@ public class BirdScript : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void start()
     {
 
     }
@@ -16,7 +16,7 @@ public class BirdScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(Keycode.space) == true)
+        if (Input.GetKeyDown(Keycode . space) == true)
         {
             myRigidbody.velocity = Vector2.up * 10;
         }
